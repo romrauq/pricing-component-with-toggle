@@ -3,13 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- displays site properly based on user's device -->
-
 		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-
 		<title>Frontend Mentor | [Challenge Name Here]</title>
-
-		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 		<style>
 			.attribution {
 				font-size: 11px;
@@ -21,15 +16,51 @@
 		</style>
 	</head>
 	<body>
-		Our Pricing Annually Monthly Basic &dollar;19.99 &dollar;199.99 500 GB Storage 2 Users Allowed
-		Send up to 3 GB Learn More Professional &dollar;24.99 &dollar;249.99 1 TB Storage 5 Users
-		Allowed Send up to 10 GB Learn More Master &dollar;39.99 &dollar;399.99 2 TB Storage 10 Users
-		Allowed Send up to 20 GB Learn More
+		<div class="main-container">
+			<h1 class="heading-text">Our Pricing</h1>
+			<div class="toggle-container">
+				<p class="toggle-text">Annually</p>
+				<div class="toggle-outer">
+					<div class="toggle-inner">Monthly</div>
+				</div>
+				<p class="toggle-text"></p>
+			</div>
+
+			<div class="pricing-container">
+				<div class="pricing-column">
+					<p class="pricing-title">Basic</p>
+					<p class="pricing-dollars pricing-monthly">&dollar;19.99</p>
+					<p class="pricing-dollars pricing-yearly">&dollar;199.99</p>
+					<p class="pricing-perks">500 GB Storage</p>
+					<p class="pricing-perks">2 Users Allowed</p>
+					<p class="pricing-perks">Send up to 3 GB</p>
+					<button>Learn More</button>
+				</div>
+				<div class="pricing-column">
+					<p class="pricing-title">Professional</p>
+					<p class="pricing-dollars pricing-monthly">&dollar;24.99</p>
+					<p class="pricing-dollars pricing-yearly">&dollar;249.99</p>
+					<p class="pricing-perks">1 TB Storage</p>
+					<p class="pricing-perks">5 Users Allowed</p>
+					<p class="pricing-perks">Send up to 10 GB</p>
+					<button>Learn More</button>
+				</div>
+				<div class="pricing-column">
+					<p class="pricing-title">Master</p>
+					<p class="pricing-dollars pricing-monthly">&dollar;39.99</p>
+					<p class="pricing-dollars pricing-yearly">&dollar;399.99</p>
+					<p class="pricing-perks">2 TB Storage</p>
+					<p class="pricing-perks">10 Users Allowed</p>
+					<p class="pricing-perks">Send up to 20 GB</p>
+					<button>Learn More</button>
+				</div>
+			</div>
+		</div>
 
 		<div class="attribution">
 			Challenge by
 			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-			Coded by <a href="#">Your Name Here</a>.
+			Coded by <a href="https://github.com/romrauq">John Quarmor</a>.
 		</div>
 	</body>
 </html>
