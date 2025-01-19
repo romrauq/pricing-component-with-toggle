@@ -1,0 +1,57 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+:root {
+	--Very-Light-Grayish-Blue: hsl(240, 78%, 98%);
+	--Light-Grayish-Blue: hsl(234, 14%, 74%);
+	--Grayish-Blue: hsl(233, 13%, 49%);
+	--Dark-Grayish-Blue: hsl(232, 13%, 33%);
+	--Linear-Gradient: hsl(236, 72%, 79%) to hsl(237, 63%, 64%);
+}
+.main-container {
+}
+.heading-text {
+}
+.toggle-container {
+}
+.toggle-text {
+}
+.toggle-outer {
+}
+.toggle-inner {
+}
+.toggle-text {
+}
+.pricing-container {
+}
+.pricing-column {
+}
+.pricing-title {
+}
+.pricing-dollars {
+}
+.pricing-monthly {
+}
+.pricing-yearly {
+}
+.pricing-perks {
+}
+.pricing-perks {
+}
+.pricing-perks {
+}
+.button {
+}
+.button-blue {
+}
+.button-white {
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
