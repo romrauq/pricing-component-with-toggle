@@ -8,45 +8,113 @@
 	--Light-Grayish-Blue: hsl(234, 14%, 74%);
 	--Grayish-Blue: hsl(233, 13%, 49%);
 	--Dark-Grayish-Blue: hsl(232, 13%, 33%);
-	--Linear-Gradient: hsl(236, 72%, 79%) to hsl(237, 63%, 64%);
+	--Linear-Gradient: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+}
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 }
 .main-container {
+	margin: auto 0;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	border-radius: 10px;
 }
 .heading-text {
+	text-align: center;
 }
 .toggle-container {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	width: fit-content;
+	margin: 0 auto;
 }
 .toggle-text {
+	font-size: 12px;
 }
 .toggle-outer {
+	display: flex;
+	align-items: center;
+	height: 20px;
+	width: 40px;
+	padding: 0 5px;
+	background: var(--Linear-Gradient);
+	border-radius: 20px;
+	cursor: pointer;
 }
 .toggle-inner {
+	height: 15px;
+	width: 15px;
+	background-color: var(--Very-Light-Grayish-Blue);
+	border-radius: 100%;
 }
 .toggle-text {
+	color: var(--Grayish-Blue);
 }
 .pricing-container {
+	display: flex;
+	color: var(--Dark-Grayish-Blue);
+	border-radius: 10px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+	background-color: hsl(240, 78%, 98%);
 }
 .pricing-column {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 20px;
+	width: 250px;
+	text-align: center;
+	border-radius: 10px;
+}
+.pricing-column-middle {
+	color: var(--Very-Light-Grayish-Blue);
+	background: var(--Linear-Gradient);
 }
 .pricing-title {
+	font-size: 12px;
 }
 .pricing-dollars {
+	font-size: 32px;
+	font-weight: bold;
 }
 .pricing-monthly {
+	display: none;
 }
-.pricing-yearly {
+.perks-container {
+	display: flex;
+	flex-direction: column;
 }
 .pricing-perks {
+	padding: 15px 0;
 }
-.pricing-perks {
+.pricing-perks:nth-child(1) {
+	border-top: 1px solid var(--Light-Grayish-Blue);
+	border-bottom: 1px solid var(--Light-Grayish-Blue);
 }
-.pricing-perks {
+.pricing-perks:nth-child(3) {
+	border-top: 1px solid var(--Light-Grayish-Blue);
+	border-bottom: 1px solid var(--Light-Grayish-Blue);
 }
 .button {
+	color: hsl(237, 63%, 64%);
+	text-transform: uppercase;
+	padding: 8px 0;
+	border: 1px solid var(--Light-Grayish-Blue);
+	background-color: var(--Very-Light-Grayish-Blue);
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: hsl(240, 78%, 98%);
 }
-.button-blue {
-}
-.button-white {
+.button-middle {
+	color: var(--Very-Light-Grayish-Blue);
+	border: 1px solid var(--Very-Light-Grayish-Blue);
+	background: var(--Linear-Gradient);
 }
 .attribution {
 	font-size: 11px;
