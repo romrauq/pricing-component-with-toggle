@@ -81,6 +81,7 @@ body {
 .pricing-column-middle {
 	color: var(--Very-Light-Grayish-Blue);
 	background: var(--Linear-Gradient);
+	border-radius: 0;
 }
 .pricing-title {
 	font-size: 12px;
