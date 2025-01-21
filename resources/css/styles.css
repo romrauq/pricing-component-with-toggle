@@ -96,7 +96,8 @@ body {
 .pricing-column-middle {
 	color: var(--Very-Light-Grayish-Blue);
 	background: var(--Linear-Gradient);
-	border-radius: 0;
+	border-radius: 10px;
+	transform: scale(1.1);
 }
 .pricing-title {
 	font-size: 12px;
@@ -192,6 +193,9 @@ body {
 	}
 	.pricing-column-middle {
 		border-radius: 10px;
+	}
+	.pricing-column-middle {
+		transform: scale(1);
 	}
 	.pricing-container:last-child {
 		margin: 0 0 30px 0;
