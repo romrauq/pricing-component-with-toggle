@@ -110,11 +110,21 @@ body {
 	border-radius: 5px;
 	cursor: pointer;
 	background-color: hsl(240, 78%, 98%);
+	transition: 0.4s;
+}
+.button:hover {
+	color: var(--Very-Light-Grayish-Blue);
+	background-color: hsl(237, 63%, 64%);
+	border: 1px solid var(--Light-Grayish-Blue);
 }
 .button-middle {
 	color: var(--Very-Light-Grayish-Blue);
 	border: 1px solid var(--Very-Light-Grayish-Blue);
 	background: var(--Linear-Gradient);
+}
+.button-middle:hover {
+	color: hsl(237, 63%, 64%);
+	background: var(--Very-Light-Grayish-Blue);
 }
 .attribution {
 	font-size: 11px;
