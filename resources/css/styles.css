@@ -10,6 +10,10 @@
 	--Dark-Grayish-Blue: hsl(232, 13%, 33%);
 	--Linear-Gradient: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
 }
+@font-face {
+	font-family: Montserrat;
+	src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
 body {
 	height: 100vh;
 	display: flex;
@@ -18,6 +22,7 @@ body {
 	justify-content: space-between;
 }
 .main-container {
+	font-family: Montserrat;
 	margin: auto 0;
 	display: flex;
 	flex-direction: column;
@@ -103,8 +108,10 @@ body {
 }
 .button {
 	color: hsl(237, 63%, 64%);
+	font-size: 12px;
+	font-weight: bold;
 	text-transform: uppercase;
-	padding: 8px 0;
+	padding: 10px 0;
 	border: 1px solid var(--Light-Grayish-Blue);
 	background-color: var(--Very-Light-Grayish-Blue);
 	border-radius: 5px;
