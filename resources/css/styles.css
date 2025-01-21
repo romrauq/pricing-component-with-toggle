@@ -101,6 +101,7 @@ body {
 }
 .pricing-title {
 	font-size: 12px;
+	font-weight: bold;
 }
 .pricing-dollars {
 	font-size: 32px;
