@@ -30,6 +30,7 @@ body {
 	border-radius: 10px;
 }
 .heading-text {
+	color: var(--Dark-Grayish-Blue);
 	text-align: center;
 }
 .toggle-container {
