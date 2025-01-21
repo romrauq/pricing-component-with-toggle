@@ -41,6 +41,7 @@ body {
 }
 .toggle-text {
 	font-size: 12px;
+	font-weight: bold;
 }
 .toggle-outer {
 	display: flex;
