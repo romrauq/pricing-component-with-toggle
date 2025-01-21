@@ -52,7 +52,7 @@ body {
 	align-items: center;
 	gap: 20px;
 	width: fit-content;
-	margin: 0 auto;
+	margin: 0 auto 30px;
 }
 .toggle-text {
 	font-size: 12px;
