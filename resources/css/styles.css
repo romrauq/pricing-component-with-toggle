@@ -37,6 +37,7 @@ body {
 	font-family: Montserrat;
 	margin: auto 0;
 	display: flex;
+	align-items: center;
 	flex-direction: column;
 	gap: 30px;
 	border-radius: 10px;
@@ -155,4 +156,44 @@ body {
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+@media (max-width: 475px) {
+	.background-top {
+		width: 50%;
+	}
+	.background-bottom {
+		width: 50%;
+	}
+	.main-container {
+		width: 90%;
+		gap: 0;
+	}
+	.heading-text {
+		margin: 0 0 20px 0;
+	}
+	.toggle-container {
+		margin: 0 0 40px 0;
+	}
+	.toggle-text {
+		font-size: 14px;
+	}
+	.pricing-container {
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+		border-radius: 0;
+		box-shadow: none;
+		width: 90%;
+	}
+	.pricing-column {
+		flex-direction: column;
+		box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+		width: 100%;
+	}
+	.pricing-column-middle {
+		border-radius: 10px;
+	}
+	.pricing-container:last-child {
+		margin: 0 0 30px 0;
+	}
 }
